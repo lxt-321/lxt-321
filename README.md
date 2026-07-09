@@ -27,7 +27,7 @@
 ---
 ### 🚀 [distributed-scheduler](https://github.com/lxt-321/distributed-scheduler)
 
-基于 Go + Gin + etcd + MySQL + Redis 的分布式任务调度平台（XXL-Job 风格）
+**基于 Go + Gin + etcd + MySQL + Redis 的分布式任务调度平台（XXL-Job 风格）**
 
 - **调度中心**：任务管理、Cron 触发、7 种路由策略（轮询/随机/一致性哈希/分片广播等）
 - **执行器管理**：基于 etcd Lease 实现自动注册与故障剔除，支持水平扩展
