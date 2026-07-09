@@ -25,6 +25,18 @@
 > 25 个文件、3000+ 行代码，含完整 Docker 部署、API 文档（Swagger）、端到端测试。
 
 ---
+### 🚀 [distributed-scheduler](https://github.com/lxt-321/distributed-scheduler)
+
+基于 Go + Gin + etcd + MySQL + Redis 的分布式任务调度平台（XXL-Job 风格）
+
+- **调度中心**：任务管理、Cron 触发、7 种路由策略（轮询/随机/一致性哈希/分片广播等）
+- **执行器管理**：基于 etcd Lease 实现自动注册与故障剔除，支持水平扩展
+- **分布式锁**：基于 Redis SETNX 解决多调度中心任务重复触发问题
+- **任务可靠性**：失败重试、超时控制、执行日志持久化
+- **技术栈**：Go 1.22 · Gin · etcd · MySQL 8.0 · Redis
+
+24 个文件、1700+ 行代码，含完整 API 文档、架构说明与 MIT License。
+
 
 ## 🛠️ 技术栈
 
